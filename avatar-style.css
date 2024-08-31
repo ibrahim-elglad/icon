@@ -1,0 +1,129 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to right, black, rgb(8, 8, 53) );
+    height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+
+}
+.contaner {
+height:1150px;
+width: 90%;
+background-image:
+ linear-gradient(to right ,rgba(1, 1, 20, 0.656) 40%, rgba(0, 0, 0, 0.804)  )
+ ,url(MCDAVAT_FE021.webp);
+ background-position: center;
+ display: flex;
+ 
+}
+.style{
+    width: 100%;
+    height: 100%;
+}
+.contaner:hover {
+    background-image:
+ linear-gradient(to right ,rgba(1, 1, 20, 0.656) 40% , transparent )
+ ,url(MCDAVAT_FE021.webp);
+}
+.style header {
+
+padding: 10px;
+display: flex;
+justify-content: space-between;
+
+
+}
+header a{
+    color: white;
+}
+.logo{
+    text-decoration: none;
+    font-size: 60px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 20px;
+    height: 0;
+}
+.style header ul li {
+
+    display: inline-block;
+  
+    justify-content: space-evenly;
+    text-decoration: none;
+  
+    margin: 35px;
+    font-size: 25px;
+
+}
+.style header ul li a{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    width: 60%;
+    height: 0;
+    display: flex;
+    text-align: end;
+    flex-wrap: wrap;
+}
+ ul  a {
+    border-bottom:4px solid transparent;
+}
+.contaner ul li a:hover{
+border-bottom-color: white;
+}
+.text{
+  color: white;
+height: 50%;
+    width: 50%;
+margin: 25% 100% 0 0 ;
+margin-right: 170em;
+}
+.text h1{
+    text-transform: uppercase;
+    font-size: 70px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin: 8px;
+}
+.text p{
+    font-size: 18px;
+letter-spacing: 3px;
+margin: 2px;
+padding: 8px;
+width: 450px;
+}
+
+@media(max-width:1500px){
+    .text{
+        position: absolute;
+        bottom:0;
+        text-align: center;
+        margin: 0 0 0 120px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
